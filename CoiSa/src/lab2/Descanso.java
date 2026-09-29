@@ -12,6 +12,6 @@ public class Descanso {
         this.numerosSemanas = numerosSemanas;
     }
     public String getStatusGeral() {
-        if
+        if ii;
     }
 }
