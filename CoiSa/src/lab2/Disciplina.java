@@ -10,6 +10,7 @@ public class Disciplina {
         this.nomeDisciplina = nomeDisciplina;
     }
 
-    public void cadastroNota (int )
+    public void cadastroNota (int ) {
 
+    }
 }
