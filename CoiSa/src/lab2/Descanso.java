@@ -1,6 +1,7 @@
 package lab2;
 
 public class Descanso {
+
     private int horasDescanso;
     private int numerosSemanas;
 
@@ -8,10 +9,27 @@ public class Descanso {
         this.horasDescanso = horasDescanso;
     }
 
-    public void defineNumerosSemanas(int numerosSemanas) {
+    public void defineNumeroSemanas(int numerosSemanas) {
         this.numerosSemanas = numerosSemanas;
     }
+
     public String getStatusGeral() {
-        if ii;
+        if (this.horasDescanso == 0 || this.numerosSemanas == 0) {
+            return "Cansado";
+        }
+
+        int horasNecessarias = 26 * this.numerosSemanas;
+
+        if (this.horasDescanso >= horasNecessarias) {
+            return "Descansado";
+
+        } else {
+            return "Cansado";
+        }
     }
 }
+
+
+
+
+

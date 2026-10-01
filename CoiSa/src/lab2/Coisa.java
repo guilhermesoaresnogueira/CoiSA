@@ -6,9 +6,9 @@ public class Coisa {
         System.out.println("-----");
         registrarTempoOnline();
         System.out.println("-----");
-        controlarDisciplina();
+        //controlarDisciplina();
         System.out.println("-----");
-        registrarResumos();
+        //registrarResumos();
     }
     public static void registrarDescanso() {
         Descanso descanso = new Descanso();
