@@ -1,3 +1,13 @@
+/**
+ * Representação de um estudante, especificamente de computação, matriculado da * UFCG. Todo aluno precisa ter uma matrícula e é identificado unicamente
+ * por esta matrícula.
+ * 20260014800
+ * @author Guilherme Soares Nogueira
+ */
+
+
+
+
 package lab2;
 
 public class RegistroTempoOnline {
@@ -17,9 +27,11 @@ public class RegistroTempoOnline {
     public void adicionaTempoOnline(int tempoOnline) {
         this.tempoOnline += tempoOnline;
     }
+
     public boolean atingiuMetaTempoOnline () {
         return tempoOnline >= tempoOnlineEsperado;
     }
+
     @Override
     public String toString () {
         return "RegistroTempoOnline{" +
